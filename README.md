@@ -17,7 +17,7 @@ python main_poisson.py --img data/MoFA-test/5.jpg
 ```
 
 ### Citation ###
-If you find this project is useful to your research, please cite the following works:
+If you find this project is useful to your research, please cite the following paper:
 
 ```
 @inproceedings{chen2022mvtc,
