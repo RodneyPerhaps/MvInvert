@@ -1,19 +1,22 @@
-# Pytorch implementation of our AAAI 2022 paper: Towards High-Fidelity Face Self-occlusion Recovery via Multi-view Residual-based GAN Inversion
+## Official PyTorch implementation of Towards High-Fidelity Face Self-occlusion Recovery via Multi-view Residual-based GAN Inversion ##
 
-## Environment setup
+<p align="center"> 
+<img src="data/eyecandy.png">
+</p>
 
-'''
+### Environment setup ###
+
+```
 conda env create -f environment.yml
-'''
+```
 
+### Run inference on portrait images ###
 
-## Run inference on portrait images
+```
+python main_poisson.py --img data/MoFA-test/5.jpg 
+```
 
-'''
-python main_poisson.py --img MoFA-test/5.jpg 
-'''
-
-## Citation
+### Citation ###
 If you find this project is useful to your research, please cite the following works:
 
 ```
