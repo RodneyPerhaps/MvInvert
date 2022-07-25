@@ -20,7 +20,7 @@ python main_poisson.py --img data/MoFA-test/5.jpg
 If you find this project is useful to your research, please cite the following paper:
 
 ```
-@inproceedings{chen2022mvtc,
+@inproceedings{chen2022mvinvert,
   title={Towards High-Fidelity Face Self-Occlusion Recovery via Multi-View Residual-Based GAN Inversion},
   author={Chen Jinsong, Han Hu, and Shan Shiguang},
   booktitle={AAAI},
